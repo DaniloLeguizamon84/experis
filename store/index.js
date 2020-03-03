@@ -73,7 +73,8 @@ export const state = () => ({
 })
 
 export const mutations = {
-    agendar (obj) {
-        entrevistas.push(obj);
+    agendar (state,obj) {
+        state.entrevistas.push(obj);
+        console.log(state.entrevistas);
     }
 }

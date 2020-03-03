@@ -4,7 +4,7 @@
       <div class="col-sm-4">
         <nuxt-link to="/" class="btn btn-sm btn-success w-100 mb-2">Inicio</nuxt-link>
         <nuxt-link to="/buscar" class="btn btn-sm btn-info w-100 mb-2">Buscar Talento</nuxt-link>
-        <nuxt-link to="/" class="btn btn-sm btn-info w-100 mb-2">Visualizar Entrevistas</nuxt-link>
+        <nuxt-link to="/visualizar" class="btn btn-sm btn-info w-100 mb-2">Visualizar Entrevistas</nuxt-link>
       </div>
       <div class="col-sm-8 border-info border-left">
         <div class="w-100 mb-3 text-center">

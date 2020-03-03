@@ -22,7 +22,7 @@
     </div>
     <div v-if="candidatos.length>0" class="container mt-3">
       <div class="row"  v-for="c in candidatos" v-if="mostrar(c.id)">
-        <talento :info="c" />
+        <talento :info="c" :key="c.id" />
       </div>
     </div>
   </div>
