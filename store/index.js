@@ -53,11 +53,27 @@ export const state = () => ({
                 
             ]
         }
-    ]
+    ],
+    tipoEntrevista:[
+        {
+            id: 1,
+            modalidad: 'Presencial'
+        },
+        {
+            id: 2,
+            modalidad: 'Telefónica'
+        },
+        {
+            id: 3,
+            modalidad: 'Remota'
+        }
+    ],
+    entrevistas:[],
+    horario:['08 am','09 am','10 am','11 am','12 am','02 pm','03 pm']
 })
 
 export const mutations = {
-    /*increment (state) {
-        state.counter++
-    }*/
+    agendar (obj) {
+        entrevistas.push(obj);
+    }
 }
